@@ -119,5 +119,6 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   # config.hosts.clear
-  config.hosts << '.app'
+  # config.hosts << '.app'
+  config.hosts << 'rails-cloud-run-hello-glxfisfbzq-uc.a.run.app'
 end
